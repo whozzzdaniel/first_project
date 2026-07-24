@@ -186,3 +186,122 @@ print(is_all_lower) # True
 my_str = "Hello World"
 title_case_my_str = my_str.title()
 print(title_case_my_str) # Hello World
+
+
+# Integers and floats
+
+my_int_1 = 56
+my_int_2 = 12
+my_float_1 = -12.0
+my_float_2 = 4.9
+
+# Addition
+
+sum_ints = my_int_1 + my_int_2
+print('Integer Addition:', sum_ints) # Integer Addition: 68
+
+sum_floats = my_float_1 + my_float_2
+print('Float Addition:', sum_floats) # Float Addition: -7.1
+
+sum_int_and_float = my_int_1 + my_float_1
+print(sum_int_and_float) # 44.0
+print(type(sum_int_and_float)) # <class 'float'>
+
+# Subtraction
+
+diff_ints = my_int_1 - my_int_2
+print('Integer Subtraction:', diff_ints) # Integer Subtraction: 44
+
+diff_floats = my_float_1 - my_float_2
+print('Float Subtraction:', diff_floats) # Float Subtraction: -16.9
+
+# Division
+
+div_ints = my_int_1 / my_int_2
+print('Integer Division:', div_ints) # Integer Division: 4.666666666666667
+
+div_floats = my_float_1 / my_float_2
+print('Float Division:', div_floats) # Float Division: -2.4489795918367343
+
+# Multiplication
+
+product_ints = my_int_1 * my_int_2
+print('Integer Multiplication:', product_ints) # Integer Multiplication: 672
+
+product_floats = my_float_1 * my_float_2
+print('Float Multiplication:', product_floats) # Float Multiplication: -58.800000000000004
+
+# Modulo Operator
+
+mod_ints = my_int_1 % my_int_2
+mod_floats = my_float_1 % my_float_2
+
+print('Integer Modulo:', mod_ints) # Integer Modulo: 8
+print('Float Modulo:', mod_floats) # Float Modulo: 2.700000000000001
+
+# Floor Division
+
+floor_div_ints = my_int_1 // my_int_2
+floor_div_floats = my_float_1 // my_float_2
+
+print('Integer Floor Division:', floor_div_ints) # Integer Floor Division: 4
+print('Float Floor Division:', floor_div_floats) # Float Floor Division: -3.0
+
+# Exponentiation
+
+exp_ints = my_int_1 ** my_int_2
+exp_floats = my_float_1 ** my_float_2
+
+print('Integer Exponentiation:', exp_ints) # Integer Exponentiation: 951166013805414055936
+print('Float Exponentiation:', exp_floats) # Float Exponentiation: (-184584.1607052842+59975.02942576666j)
+
+# Conversion using int() and float()
+
+my_int_1 = 56
+my_float_1 = float(my_int_1)
+
+print(my_float_1) # 56.0
+print(type(my_float_1)) # <class 'float'>
+
+my_float = 2.96
+my_int = int(my_float)
+
+print(my_int) # 2
+print(type(my_int)) # <class 'int'>
+
+my_str_int = "23"
+my_str_float = "3.14"
+
+converted_int = int(my_str_int)
+converted_float = float(my_str_float)
+
+print(converted_int, type(converted_int)) # 23 <class 'int'>
+print(converted_float, type(converted_float)) # 3.14 <class 'float'>
+
+# Numeric methods
+
+# Round
+
+my_num_1 = 2.965
+my_num_2 = 4.253
+
+rounded_num_1 = round(my_num_1)
+rounded_num_2 = round(my_num_2, 1)
+
+print(rounded_num_1) # 3
+print(rounded_num_2) # 4.3
+
+# Abs
+
+num = -15
+
+absolute_value = abs(num)
+print(absolute_value) # 15
+
+# Pow
+
+result_1 = pow(2, 3) # 2 ** 3
+print(result_1) # 8
+
+result_2 = pow(2, 3, 5) # (2 ** 3) % 5
+print(result_2) # 3
