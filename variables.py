@@ -305,3 +305,51 @@ print(result_1) # 8
 
 result_2 = pow(2, 3, 5) # (2 ** 3) % 5
 print(result_2) # 3
+
+
+# Augmented Assignments
+
+my_var = 10
+my_var += 5
+
+print(my_var) # 15
+
+count = 14
+count -= 3
+
+print(count) # 11
+
+product = 65
+product *= 7
+
+print(product) # 455
+
+price = 100
+price /= 4
+
+print(price) # 25
+
+total_pages = 23
+total_pages //= 5
+
+print(total_pages) # 4
+
+bits = 35
+bits %= 2
+
+print(bits) # 1
+
+power = 2
+power **= 3
+
+print(power) # 8
+
+greet = "Hello"
+greet += "World"
+
+print(greet) # Hello World
+
+greet = "Hello"
+greet *= 3
+
+print(greet) # HelloHelloHello
